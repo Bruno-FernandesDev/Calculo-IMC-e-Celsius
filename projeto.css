@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,200;0,300;1,200 & display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins' sans-serif;
+
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(-190deg, tomato, violet, blue);
+
+}
+
+.input_Altura {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+.input_Peso {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+.box {
+    background: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 15vw;
+    height: 35vh;
+    border-radius: 10px;
+    box-shadow: 0 0 1em black;
+}
+
+h2 {
+    color: white;
+
+}
+
+label {
+    color: white;
+}
+
+.button {
+    padding: 8px;
+    background: deeppink;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.button:hover {
+    background: linear-gradient(190deg, deeppink, blueviolet, blue);
+}
+
+.box-div {
+    background: slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 18vw;
+    height: 45vh;
+    border-radius: 10px;
+    box-shadow: 0 0 1em black;
+}
+.tittle {
+    margin: 0;
+    margin-bottom: 50px;
+}
+.input-celsius {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 1px 10px 10px 1px;
+    outline: none;
+
+}
